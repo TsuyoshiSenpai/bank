@@ -1,0 +1,55 @@
+﻿<Window x:Class="WpfApp2.AddCash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2" xmlns:viewmodel="clr-namespace:WpfApp2.ViewModel" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="LightGoldenrodYellow"
+        Title="AddCash" Height="200" Width="200">
+    <Window.DataContext>
+        <viewmodel:BankViewModel></viewmodel:BankViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="0" Fill="#b83b5e" />
+        <materialDesign:PackIcon Kind="ExitToApp"
+                                 Height="30" Width="30" 
+                                 Margin="170,0,0,0"></materialDesign:PackIcon>
+        <Button HorizontalAlignment="Center" 
+                Command="{Binding CloseAddCashCommand}"
+                Background="Transparent"
+                BorderBrush="Black"
+                VerticalAlignment="Top" 
+                Width="30" Height="30" Margin="170,0,0,0"/>
+        <TextBox HorizontalAlignment="Center" 
+                 Text="{Binding Sum,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                 Height="23"
+                 Grid.Row="1" TextWrapping="Wrap" 
+                 materialDesign:HintAssist.Hint="Введите число"
+                 VerticalAlignment="Center" 
+                 Width="120" Margin="36,57,36,82"/>
+        <materialDesign:PackIcon Kind="CashCheck" 
+                                 Height="30"
+                                 Width="30"
+                                 Margin="152,122,0,0" 
+                                 Grid.Row="1"></materialDesign:PackIcon>
+        <Button HorizontalAlignment="Center" 
+            Command="{Binding AddCashCommand}"
+            Background="Transparent"
+            BorderBrush="Black"
+            VerticalAlignment="Top" 
+            Width="30" Height="30" Margin="152,122,18,0" Grid.Row="1"/>
+        <materialDesign:PackIcon Kind="Bank" 
+            Height="20" 
+            Width="20"
+            HorizontalAlignment="Center" 
+            Foreground="Coral" Margin="10,10,170,0" Grid.Row="1"/>
+    </Grid>
+</Window>
