@@ -24,11 +24,12 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Rectangle Grid.Row="0" Fill="#b83b5e" Grid.ColumnSpan="2"/>
-        <Image x:Name="image1" HorizontalAlignment="Left" 
-               Height="170" 
-               VerticalAlignment="Top" Width="200"
-               Source="images/kulikucha.jpg" 
-               RenderTransformOrigin="0.237,0.5" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <materialDesign:PackIcon Kind="Close" Grid.Column="1" 
+                                 VerticalAlignment="Center"
+                                 HorizontalAlignment="Center"
+                                 Height="100"
+                                 Width="100"
+                                 Grid.Row="1"/>
         <materialDesign:PackIcon Kind="ExitToApp"
             Height="30" 
             Width="30" 

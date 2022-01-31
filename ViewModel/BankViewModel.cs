@@ -174,7 +174,6 @@ namespace WpfApp2.ViewModel
                         window.Close();
                     }
                 }
-                Process.Start("https://www.youtube.com/watch?v=evM9lhafRSs");
             });
             ExitToMainCommand = new RelayCommand(o =>
             {
@@ -289,7 +288,6 @@ namespace WpfApp2.ViewModel
             });
             OpenHistoryCommand = new RelayCommand(o =>
             {
-                Process.Start("https://www.youtube.com/watch?v=n_j6o1gEwLg");
                 HistoryWindow historyWindow = new HistoryWindow();
                 historyWindow.Owner = Application.Current.MainWindow;
                 historyWindow.Show();
