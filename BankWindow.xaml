@@ -98,14 +98,5 @@
                 Margin="770,0,0,0" 
                 VerticalAlignment="Top" 
                 Width="30" Height="30"/>
-        <Label Content="Made by Ershoff in 2022" 
-            FontSize="12"
-            FontFamily="Bahnschrift"
-            HorizontalAlignment="Left" 
-            HorizontalContentAlignment="Center"
-            VerticalContentAlignment="Center"
-            Margin="299,628,0,0" 
-            VerticalAlignment="Top" 
-            Height="32" Width="177" Grid.Row="1"/>
     </Grid>
 </Window>

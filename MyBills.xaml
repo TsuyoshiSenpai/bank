@@ -42,74 +42,18 @@
                Margin="291,390,0,0" 
                VerticalAlignment="Top" 
                Height="34" Width="184" Grid.Row="1"/>
-        <Grid Margin="242,0,-242,0">
-            <Border BorderBrush="Black"
-                Background="#FFAA64"
-                BorderThickness="1" 
-                CornerRadius="10"
-                HorizontalAlignment="Left" 
-                Height="104" Margin="-172,507,0,-581" 
-                VerticalAlignment="Top" 
-                Width="230">
-                <Label Content="Накопительный"
-                    FontSize="30"
-                    HorizontalContentAlignment="Center"
-                    VerticalContentAlignment="Top" 
-                    FontFamily="Bahnschrift" Margin="0,0,0,64"/>
-            </Border>
-            <Label Content="Label" 
-                FontSize="25"
-                FontFamily="Bahnschrift"
-                HorizontalContentAlignment="Center"
-                VerticalContentAlignment="Center"
-                HorizontalAlignment="Left" 
-                Margin="-148,565,0,-569" 
-                VerticalAlignment="Top" 
-                Height="34" Width="184"/>
-        </Grid>
+        <Grid Margin="242,0,-242,0"/>
         <Grid Margin="499,0,-499,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="189*"/>
                 <RowDefinition Height="482*"/>
             </Grid.RowDefinitions>
-            <Border BorderBrush="Black"
-                Background="#FFAA64"
-                BorderThickness="1" 
-                CornerRadius="10"
-                HorizontalAlignment="Left" 
-                Height="104" Margin="-54,498,0,-580" 
-                VerticalAlignment="Top" 
-                Width="230" Grid.Row="1">
-                <Label Content="Кредит"
-                    FontSize="30"
-                    HorizontalContentAlignment="Center"
-                    VerticalContentAlignment="Top" 
-                    FontFamily="Bahnschrift" Margin="0,0,0,64"/>
-            </Border>
-            <Label Content="Label" 
-                FontSize="25"
-                FontFamily="Bahnschrift"
-                HorizontalContentAlignment="Center"
-                VerticalContentAlignment="Center"
-                HorizontalAlignment="Left" 
-                Margin="-32,554,0,-566" 
-                VerticalAlignment="Top" 
-                Height="34" Width="186" Grid.Row="1"/>
         </Grid>
         <materialDesign:PackIcon Kind="Bank" 
             Height="200" 
             Width="200"
             HorizontalAlignment="Center" 
             Foreground="Coral" Margin="299,5,301,0" Grid.Row="1"/>
-        <Label Content="Made by Ershoff in 2022" 
-               FontSize="12"
-               FontFamily="Bahnschrift"
-               HorizontalAlignment="Left" 
-               HorizontalContentAlignment="Center"
-               VerticalContentAlignment="Center"
-               Margin="299,628,0,0" 
-               VerticalAlignment="Top" 
-               Height="32" Width="177" Grid.Row="1"/>
         <Rectangle Grid.Row="0" Fill="#b83b5e" />
         <materialDesign:PackIcon Kind="ExitToApp" Margin="770,0,0,0" Height="30" Width="30"></materialDesign:PackIcon>
         <Button HorizontalAlignment="Left" 

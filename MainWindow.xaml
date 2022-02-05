@@ -65,15 +65,6 @@
                  TextWrapping="Wrap"  
                  VerticalAlignment="Center" 
                  Width="120" Margin="340,329,340,291" Grid.Row="1"/>
-        <Label Content="Made by Ershoff in 2022" 
-            FontSize="12"
-            FontFamily="Bahnschrift"
-            HorizontalAlignment="Left" 
-            HorizontalContentAlignment="Center"
-            VerticalContentAlignment="Center"
-            Margin="320,612,0,0" 
-            VerticalAlignment="Top" 
-            Height="32" Width="177" Grid.Row="1"/>
         <Button HorizontalAlignment="Center" 
             Command="{Binding CloseMainCommand}"
             Background="Transparent"
