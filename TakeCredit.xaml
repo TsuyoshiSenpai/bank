@@ -37,10 +37,5 @@
                 Margin="236.333,100,0,0" Grid.Row="1" 
                 VerticalAlignment="Top" 
                 Width="130" Height="121" Grid.Column="1"/>
-        <Image x:Name="image1" HorizontalAlignment="Left" 
-               Height="294" Margin="99,76,0,0" 
-               VerticalAlignment="Top" Width="193"
-               Source="images/morpheus.png" 
-               RenderTransformOrigin="0.237,0.5" Grid.Column="1" Grid.Row="1"/>
     </Grid>
 </Window>

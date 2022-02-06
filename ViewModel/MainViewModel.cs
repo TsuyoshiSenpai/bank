@@ -78,7 +78,7 @@ namespace WpfApp2.ViewModel
             {
                 foreach (Window window in Application.Current.Windows)
                 {
-                    if (window.Title == "ОГО")
+                    if (window.Title == "errorWindow")
                     {
                         window.Close();
                     }

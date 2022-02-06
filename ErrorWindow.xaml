@@ -10,7 +10,7 @@
     WindowStyle="None"
         Background="LightGoldenrodYellow"
         WindowStartupLocation="CenterScreen"
-        Title="ОГО" Height="200" Width="200">
+        Title="errorWindow" Height="200" Width="200">
     <Window.DataContext>
         <viewmodel:MainViewModel/>
     </Window.DataContext>
